@@ -28,7 +28,7 @@ public class splashActivity extends AppCompatActivity {
             }
         };
         thread.start();
-        Toast.makeText(this, "this ", Toast.LENGTH_LONG).show();
+
     }
 
 }
