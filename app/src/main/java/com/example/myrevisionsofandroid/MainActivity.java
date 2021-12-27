@@ -20,11 +20,12 @@ public class MainActivity extends AppCompatActivity {
         TvLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //default toast just add show
-                Toast toast = Toast.makeText(getApplicationContext(), "This is my revison of andorid", Toast.LENGTH_LONG).show();
-                // when gravity set
+//                Toast toast = Toast.makeText(getApplicationContext(), "This is my revison of andorid", Toast.LENGTH_LONG);
+//                when gravity set
 //                toast.setGravity(Gravity.CENTER, 0, 0);
 //                toast.show();
+                //deualt toast
+                Toast.makeText(getApplicationContext(), "This is my revison of andorid", Toast.LENGTH_LONG).show();
             }
         });
 
