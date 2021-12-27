@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     TextView TvLogin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,9 +20,11 @@ public class MainActivity extends AppCompatActivity {
         TvLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toast = Toast.makeText(getApplicationContext(), "This is my revison of andorid", Toast.LENGTH_LONG);
-                toast.setGravity(Gravity.CENTER, 0, 0);
-                toast.show();
+                //default toast just add show
+                Toast toast = Toast.makeText(getApplicationContext(), "This is my revison of andorid", Toast.LENGTH_LONG).show();
+                // when gravity set
+//                toast.setGravity(Gravity.CENTER, 0, 0);
+//                toast.show();
             }
         });
 
